@@ -1,0 +1,6 @@
+Django==1.6.5
+freeze==0.8.0
+ipython==2.1.0
+six==1.6.1
+wsgiref==0.1.2
+yolk==0.4.3

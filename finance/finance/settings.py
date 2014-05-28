@@ -40,6 +40,7 @@ INSTALLED_APPS = (
 
 	# system apps
 	'core',
+	'contaspagar',
 )
 
 MIDDLEWARE_CLASSES = (

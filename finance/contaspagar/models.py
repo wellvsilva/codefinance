@@ -2,6 +2,7 @@
 
 from django.db import models
 
+
 SITUACAOCONTA_CHOICE = (
     ('PA', 'PAGA'),
     ('PE', 'PENDENTE'),
@@ -68,10 +69,13 @@ class Banco(models.Model):
 
     def __unicode__(self):
         return self.codigo
+
+
 CHEQUEORIGIEM_CHOICE = (
     ('P', 'PROPRIO'),
     ('T', 'TERCEIRO'),
 )
+
 
 AVISTAPRE_CHOICE = (
     ('A', 'A VISTA'),
@@ -99,8 +103,4 @@ class Cheque(models.Model):
 
     def __unicode__(self):
         return self.banco
-
-
-
-
-
+        
